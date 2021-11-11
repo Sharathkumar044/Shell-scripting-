@@ -36,7 +36,7 @@ echo -e "\e34m hi sandya"
 
 ##0 col code is used to deable
 
-echo "\e[32m hisandya \e[0m"
+echo -e "\e[32m hisandya \e[0m"
 
 echo hisandya
 
