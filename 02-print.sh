@@ -10,5 +10,11 @@
 echo hello world
 echo my name is sharath , welcome to my redhat shell script
 
-#ESC sequenses
+#ESC sequenses , /n (new line) , /e (new tab)
+
+echo "hello world/nWelcome"
+
+
+
+
 
