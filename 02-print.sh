@@ -41,3 +41,5 @@ echo -e "\e[32m hisandya \e[0m"
 echo hisandya
 
 
+## for extra resource  https://misc.flogisoft.com/bash/tip_colors_and_formatting
+
