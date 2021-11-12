@@ -23,3 +23,7 @@ echo "hi,$[c]"
 ##
 
 date
+
+echo variable=$a
+echo value of a=$a
+echo value of b=$a
