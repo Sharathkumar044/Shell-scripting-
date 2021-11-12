@@ -22,4 +22,4 @@ c= today date is 11-11-21
 echo "hi,$[c]"
 ##
 
-
+date
