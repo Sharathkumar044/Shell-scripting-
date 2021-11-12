@@ -30,7 +30,7 @@ a=(10,20)
 
 ##index of 10 is "0" and index of 20 is "1"
 
-##example
+##example "arrey"
 
 echo ${a[0]}
 
