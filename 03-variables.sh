@@ -38,5 +38,9 @@ echo ${a[1]}
 
 declare -A a1
 
-declare -A assArray2= ( [HDD]=Nokia, [moniter]=MI china, [keyboard]=A4tech)
+declare -A assArray2= ( [HDD]=Nokia, [moniter]=MI china, [keyboard]=A4tech )
+
+echo ${assArray2[keyboard]}
+
+echo ${assArray2[moniter]}
 
