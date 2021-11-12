@@ -24,6 +24,19 @@ echo "hi,$[c]"
 
 date
 
-echo variable=$a
-echo value of a=$a
-echo value of b=$a
+##index arryes
+
+a=(10,20)
+
+##index of 10 is "0" and index of 20 is "1"
+
+##example
+
+echo ${a[0]}
+
+echo ${a[1]}
+
+declare -A a1
+
+declare -A assArray2= ( [HDD]=Nokia, [moniter]=MI china, [keyboard]=A4tech)
+
