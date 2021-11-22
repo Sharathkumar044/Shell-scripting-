@@ -22,10 +22,10 @@ mysql: #### Setup Mysql Component
 redis: #### Setup Redis Component
     @bash components/redis.sh
 
-rabbitmq: #### Setup Rabbitmq Component
+rabbitmq: #### Setup RabbitMQ Component
     @bash components/rabbitmq.sh
 
-mongodb: #### Setup Mongodb Component
+mongodb: #### Setup MongoDB Component
     @bash components/mongodb.sh
 
 redis: #### Setup Redis Component
