@@ -1,32 +1,29 @@
 help:
-    @grep '####' Makefile | grep -v grep | sed -e 's/####//'
-
-cart: #### Setup Cart Component
-    @bash component/cart.sh
+        @grep '####' Makefile | grep -v grep | sed -e 's/####//'
 
 user: #### Setup User Component
-    @bash components/user.sh
+        @bash components/user.sh
 
 shipping: #### Setup Shipping Component
-    @bash components/shipping.sh
+        @bash components/shipping.sh
 
 payment: #### Setup Payment Component
-    @bash components/payment.sh
+        @bash components/payment.sh
 
 frontend: #### Setup Frontend Component
-    @bash components/frontend.sh
+        @bash components/frontend.sh
 
 mysql: #### Setup Mysql Component
-    @bash components/mysql.sh
+        @bash components/mysql.sh
 
 redis: #### Setup Redis Component
-    @bash components/redis.sh
+        @bash components/redis.sh
 
 rabbitmq: #### Setup RabbitMQ Component
-    @bash components/rabbitmq.sh
+        @bash components/rabbitmq.sh
 
 mongodb: #### Setup MongoDB Component
-    @bash components/mongodb.sh
+        @bash components/mongodb.sh
 
 redis: #### Setup Redis Component
-    @bash components/redis.sh
+        @bash components/redis.sh
