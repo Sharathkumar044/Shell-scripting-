@@ -1,5 +1,5 @@
-help:
-    @IFS=$$'\n' ; \
+help: ## This help dialog.
+  @IFS=$$'\n' ; \
     help_lines=(`fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//'`); \
     for help_line in $${help_lines[@]}; do \
         IFS=$$'#' ; \
@@ -8,7 +8,6 @@ help:
         help_info=`echo $${help_split[2]} | sed -e 's/^ *//' -e 's/ *$$//'` ; \
         printf "%-30s %s\n" $$help_command $$help_info ; \
     done
-
 
 user: ## Setup User Component
         @bash components/user.sh
