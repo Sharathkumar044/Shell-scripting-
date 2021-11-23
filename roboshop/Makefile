@@ -10,32 +10,32 @@ help:
         done
 
 
-cart: git-pull ## Setup Cart Component
+cart: ## Setup Cart Component
 	@sudo bash components/cart.sh
 
-catalogue: git-pull ## Setup Catalogue Component
+catalogue: ## Setup Catalogue Component
 	@sudo bash components/catalogue.sh
 
-user: git-pull ## Setup User Component
+user: ## Setup User Component
 	@sudo bash components/user.sh
 
-shipping: git-pull ## Setup Shipping Component
+shipping: ## Setup Shipping Component
 	@sudo bash components/shipping.sh
 
-payment: git-pull ## Setup Payment Component
+payment: ## Setup Payment Component
 	@sudo bash components/payment.sh
 
-frontend: git-pull ## Setup Frontend Component
+frontend: ## Setup Frontend Component
 	@sudo bash components/frontend.sh
 
-mysql: git-pull ## Setup MySQL Component
+mysql: ## Setup MySQL Component
 	@sudo bash components/mysql.sh
 
-redis: git-pull ## Setup Redis Component
+redis: ## Setup Redis Component
 	@sudo bash components/redis.sh
 
-rabbitmq: git-pull ## Setup RabbitMQ Component
+rabbitmq: ## Setup RabbitMQ Component
 	@sudo bash components/rabbitmq.sh
 
-mongodb: git-pull ## Setup MongoDB Component
+mongodb: ## Setup MongoDB Component
 	@sudo bash components/mongodb.sh
