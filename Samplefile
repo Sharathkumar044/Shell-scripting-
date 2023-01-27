@@ -1,0 +1,8 @@
+#!/bin/bash 
+pwd 
+ls -al 
+touch sample 
+ifconfig 
+netstat -a
+uname -a
+date 
